@@ -7,12 +7,16 @@
 # Features
 
 > Itens clicaveis e funcionais:
-  * Botão de inicio
-  * Botão de pesquisar
-  * Botão de notificações
-  * Imagem do desenho Sara e o Pato com redirecionamento
-  * Git Hub 
+  * Botão de inicio.
+  * Botão de pesquisar.
+  * Botão de notificações.
+  * Botão de perfil.
+  * Imagem do desenho Sara e o Pato com redirecionamento.
 
 # Navegação
 
 * Apenas a imagem com o desenho Sarah e o pato ira redirecionar para uma pagina falando sobre o desenho, as demais imagens não fazem redirecionamento.
+* Apenas os botões de inicio, pesquisar, notificaçao e perfil presentes no header funcionam, os botões de serie e filme não funcionam.
+* Os botões do Footer não funcionam.
+* Não e possivel realmente assistir o desenho diretamente pelo site.
+* O perfil e demonstrativo, as configurações dele não podem ser mudadas.
