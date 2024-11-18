@@ -1,0 +1,76 @@
+body { 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.content {
+    background-color: #f8c6d8;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 70%;
+    h1 {
+        padding-left: 45px;
+        font-size: 20px;
+
+    }
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.historico {
+    width: 95%;
+    height: auto;
+    background-color: #f79fbe;
+    border-radius: 10px;
+    margin: 20px;
+    height: 400px;
+}
+
+.itens-his {
+    background-color: #ff79a8;
+    padding: 0.5px 20px 0.5px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 1px solid black;
+    width: 450px;
+    border-radius: 10px 0px 0px 10px; 
+    background-color: transparent;
+  }
+  
+button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px; 
+    background-color: transparent;
+  }
+  
+button:hover {
+    background: #ccc;
+  }
