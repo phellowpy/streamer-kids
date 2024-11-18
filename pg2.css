@@ -1,0 +1,151 @@
+body { 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+}
+
+.content .left {
+    flex: 1;
+    background-color: #d3f0d3;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.content .left img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.content .left h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.content .left .rating i {
+    color: gold;
+    font-size: 20px;
+}
+
+.content .left .rating .imdb {
+    background-color: #f5c518;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.content .left p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.content .left .buttons button {
+    background-color: #a8d5a2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.content .right {
+    flex: 1;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7i5upLRujvDEFIgiQ-luA7idakDkp9yU2TqCd40_kuHaG4Sy7ZOQoyVbXdTq9eEkyKwQ&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.footer1 {
+    background-color: #f0c0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.footer1 p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.content {
+    background-color: #f8d0e4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .left, .content .right {
+    width: 48%;
+}
+
+.content .left {
+    font-size: 18px;
+    color: #6a4b8a;
+}
+
+.content .right {
+    font-size: 18px;
+    color: #6a4b8a;
+}
+
+.episodes {
+    padding: 20px;
+}
+
+.episodes h2 {
+    background-color: #6a4b8a;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.episode {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.episode img {
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.episode .description {
+    font-size: 16px;
+    color: #6a4b8a;
+}
+
+.footer {
+    background-color: #b2d8b2;
+    padding: 05px;
+    text-align: center;
+    margin: 10;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+.social-icons i {
+    font-size: 30px;
+    color: black;
+    margin: 0 15px;
+}

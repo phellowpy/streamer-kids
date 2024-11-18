@@ -1,0 +1,227 @@
+
+body { 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: #a8d5a2;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header .nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.header .nav a i {
+    margin-right: 5px;
+}
+
+.header .icons {
+    display: flex;
+    align-items: center;
+}
+
+.header .icons i {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.main-content {
+    display: flex;
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.main-content .left {
+    flex: 1;
+    background-color: #6c7a89;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.main-content .left h1 {
+    font-size: 36px;
+}
+
+.main-content .left .rating {
+    background-color: #ffd700;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.main-content .left .recommendation {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.main-content .left .recommendation i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.main-content .left .buttons {
+    margin-top: 20px;
+}
+
+.main-content .left .buttons button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.main-content .right {
+    flex: 2;
+    background-image: url('https://s2.glbimg.com/pRnfca_h9EHW3_k5LHIvx7dwo60=/e.glbimg.com/og/ed/f/original/2020/04/17/bluey1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+
+.section {
+    padding: 20px;
+}
+
+.section h2 {
+    color: #8a2be2;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.section .row .card {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    width: calc(33.333% - 10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section .row .card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.green-border img {
+    border: 5px solid #00ff00;
+}
+
+.pink-border img {
+    border: 5px solid #ffb6c1;
+}
+
+.purple-border img {
+    border: 5px solid #9370db;
+}
+
+.section {
+    padding: 20px;
+}
+
+.section h2 {
+    color: #8a2be2;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+
+.section .row .card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.green-border img {
+    border: 5px solid #00ff00;
+}
+
+.pink-border img {
+    border: 5px solid #ffb6c1;
+}
+
+.purple-border img {
+    border: 5px solid #9370db;
+}
+
+
+.section .row .card {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    width: calc(33.333% - 10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section .row .card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.green-border img {
+    border: 5px solid #00ff00;
+}
+
+.pink-border img {
+    border: 5px solid #ffb6c1;
+}
+
+.purple-border img {
+    border: 5px solid #9370db;
+}
+
+
+
+    
+    .footer {
+        background-color: #b2d8b2;
+        padding: 30px;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .footer p {
+        margin: 10px 0;
+    }
+    
+    .social-icons i {
+        font-size: 30px;
+        color: black;
+        margin: 0 15px;
+    }
+    
+
+
+
+
+
